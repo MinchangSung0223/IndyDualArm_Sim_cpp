@@ -1,8 +1,10 @@
 # IndyDualArm_Sim_cpp build
 
 ```
+
 mkdir build
 cd build
+cp ../MR_info.json .
 cmake ..
 make -j16
 
